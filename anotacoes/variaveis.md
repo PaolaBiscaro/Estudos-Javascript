@@ -1,4 +1,4 @@
-# Sintaxe Básica
+# Anotações
 
 **CONST** - A variavel não pode ser alterada.
 
@@ -11,3 +11,9 @@
 **==** - Operador de Comparação sem considerar o tipo
 
 **===** - Operador de Comparação que considera o tipo de dado, ou seja "0" é diferente de 0.
+
+
+
+# Biblioteca Math
+
+**Math.pow(num, 2)** - Essa função faz o calculo de potência, tem como parametros o valor que você quer calcular e o valor da potência.
