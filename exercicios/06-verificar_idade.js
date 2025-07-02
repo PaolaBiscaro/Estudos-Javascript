@@ -18,3 +18,6 @@ function verificarIdade(idade){
 
  const idade = 17
  verificarIdade(idade);
+
+
+ 
