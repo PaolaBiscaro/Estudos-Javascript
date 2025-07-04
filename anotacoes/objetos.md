@@ -39,3 +39,6 @@ console.log(pessoa.nome)//Mostra apenas o atributo
 pessoa.descrever();//Chama o método
 
 ```
+
+Podemos declarar objetos apenas com **{ }** que chamamos de objetos com literal.
+
