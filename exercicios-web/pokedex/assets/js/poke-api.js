@@ -11,7 +11,7 @@ function convertPokeApiDetailToPokemon(pokeDetail){
     pokemon.types = types
     pokemon.type = type
 
-    pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
+    pokemon.photo = pokeDetail.sprites.other["official-artwork"].front_default
 
     return pokemon
     
@@ -26,7 +26,7 @@ pokeapi.getPokemonDetail = (pokemon) => {
 }
 
 
-pokeapi.getPokemons = (offset = 0, limit = 50) => {
+pokeapi.getPokemons = (offset = 0, limit = 5) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
     return fetch(url) //busca a lista de pokemon
