@@ -1,0 +1,52 @@
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.projects li .title{
+    display: flex;
+    flex-direction: row;
+    font-weight: 800;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.projects li .title::before{
+    content: '';
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    background-image: url('/assets/icons/github.png');
+}
+
+.projects li a{
+    color: #fff;
+    text-decoration: none;
+    word-break: break-all;
+    overflow: break-word;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.projects li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
