@@ -46,4 +46,33 @@ Podemos colocar varios .then() nessa função
 ```
 
 
+# Async e Await
+
+São palavras-chave do Javascript usadas para trabalhar com promessas de forma mais simples e legível, como se fosse código síncrino (sequencial) mas ainda sendo assíncrono por trás.
+O uso deles evita aninhamentos de .then()
+
+## Async
+
+Colocamos async antes de uma função para indicar que ela sempre retorna uma promessa (Promise).
+
+
+## Await
+
+Usamos await dentro de funções async para esperar a resolução de uma promessa antes de continuar para a próxima linha.
+
+```javascript
+    const fs = require('fs')
+    const path = require('path')
+
+    const filePath = path.resolve(__dirname, 'arquivos_auxiliares/lista_tarefas.csv')
+
+    async function buscarArquivo(){
+        const arquivo = await fs.promises.readFile(filePath)
+        const textoArquivo = arquivo.toString('utf-8')
+        console.log(textoArquivo)
+    }
+
+    buscarArquivo()
+
+```
 
