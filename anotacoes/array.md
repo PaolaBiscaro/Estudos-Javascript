@@ -146,3 +146,15 @@ Podemos usar o join em combinação com diversas outras funções, por exemplo:
                     .filter((e) => e.startsWith('A'))
                     .join('; ')) //Imprime Antonio; Ana
 ```
+
+
+# Split
+
+O método **split()** em javascript é utilizado para dividir uma string em um array de substrings, com base em um delimitador especificado. Ele não altera a string original, apenas retorna o novo array de substrings.
+
+```javascript
+    let palavra = 'peixe'
+    let palavraInvertida = palavra.split('')
+
+    console.log(palavraInvertida)//Imprime [ 'p', 'e', 'i', 'x', 'e' ]
+```
