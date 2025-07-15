@@ -158,3 +158,14 @@ O método **split()** em javascript é utilizado para dividir uma string em um a
 
     console.log(palavraInvertida)//Imprime [ 'p', 'e', 'i', 'x', 'e' ]
 ```
+
+
+# Reverse
+
+ Inverte a ordem dos elementos de um array no próprio array original — ou seja, ele modifica o array em que foi chamado e também retorna esse array invertido.
+
+ ```javascript
+    let letras = ['a', 'b', 'c'];
+    letras.reverse(); 
+    console.log(letras); //Imprime ['c', 'b', 'a']
+ ```
