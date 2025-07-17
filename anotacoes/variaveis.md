@@ -185,3 +185,7 @@ https://mikemcl.github.io/decimal.js/
 # Biblioteca Math
 
 **Math.pow(num, 2)** - Essa função faz o calculo de potência, tem como parametros o valor que você quer calcular e o valor da potência.
+
+**Math.floor()** - Arredonda o número para baixo até o inteiro mais próximo.
+
+**Math.random()** - Sorteia um número pseudoaleatório entre 0 e 1. O número nunca será 1, mas pode ser 0. Para adicionar outros números podemos multiplicar ou somar valores.
