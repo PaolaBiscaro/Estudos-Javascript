@@ -53,7 +53,7 @@ O uso deles evita aninhamentos de .then()
 
 ## Async
 
-Colocamos async antes de uma função para indicar que ela sempre retorna uma promessa (Promise).
+Assincrono - Colocamos async antes de uma função para indicar que ela sempre retorna uma promessa (Promise).
 
 
 ## Await
