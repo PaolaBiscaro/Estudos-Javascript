@@ -1,22 +1,27 @@
 
 
-function checkSeasons(dia, mes){
-    let mesDate = mes-1
-    let ano = new Date().getFullYear()
-    let date = new Date(ano, mesDate, dia)
-    console.log(date.toLocaleDateString())
+function checkSeasons(mes){
+    let date = mes
+    switch (true) {
+    case date <= 3 && date > 0:
+        console.log('Verão')
+        break;
 
-    switch (expressao) {
-    case valor1:
-        // código a executar se expressao === valor1
+    case date <= 6 && date > 3:
+        console.log('Outono')
         break;
-    case valor2:
-        // código a executar se expressao === valor2
+
+    case date <= 9 && date > 6:
+        console.log('Inverno')
         break;
+    
+    case date <= 12 && date > 9:
+        console.log('Primavera')
+        break;
+        
     default:
-        // código a executar se nenhum case combinar
+        console.log('Mês invalido! Digite um valor de 1 á 12')
     }
-
     /*
         verão - 21 dezembro a 20 de março
         outono - 21 de março a 20 junho
@@ -25,6 +30,4 @@ function checkSeasons(dia, mes){
     */
 }
 
-
-
-checkSeasons(14, 1)
+checkSeasons(4)
