@@ -46,4 +46,20 @@ for (let j=0; j<nome.length; j++){
 ```
 
 
+**DO-WHILE** Esta condição executa um bloco de código ao menos uma vez antes de verrificar a condição.
+O código dentro do "do" é executado uma vez, em seguida é verificado a condição do while, se for verdadeira será executado novamente até que a condição seja falsa.
+
+```javascript
+    let contador = 1;
+
+    do {
+    console.log(`Contador: ${contador}`);
+    contador++;
+    } while (contador <= 5);
+
+
+```
+
+
+
 
