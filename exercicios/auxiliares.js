@@ -4,7 +4,9 @@ function prints(texto){
     console.log(texto);
 }
 
+
 module.exports = {prints} //Prepara o objeto
+
 
 
 

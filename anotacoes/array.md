@@ -169,3 +169,15 @@ O método **split()** em javascript é utilizado para dividir uma string em um a
     letras.reverse(); 
     console.log(letras); //Imprime ['c', 'b', 'a']
  ```
+
+
+ # Includes
+
+ É um método simples e muito útil de arrays (e também de strings) em JavaScript. Ele verifica se um valor está presente dentro do array (ou string) e retorna um booleano (true ou false).
+
+ ```javascript
+    const cores = ['azul', 'amarelo', 'preto']
+
+    console.log(cores.includes('vermelho'))//false
+    console.log(cores.includes('azul')) //true
+ ```
