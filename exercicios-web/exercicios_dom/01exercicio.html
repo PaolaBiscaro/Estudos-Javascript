@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+
+<body>
+    <h1>Exercicio 01</h1>
+    <p>Pagina que ao clicar no botão altera a cor do texto</p>
+    <div>
+        <p id="texto">Clique no botão para mudar a cor</p>
+        <button onclick="mudarCor()">Azul</button>
+    </div>
+
+    <script>
+        function mudarCor() {
+            const paragrafo = document.getElementById("texto")
+            paragrafo.style.color = "blue"
+        }
+        
+    </script>
+
+</body>
+
+</html>
